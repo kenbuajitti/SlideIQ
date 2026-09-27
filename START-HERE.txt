@@ -1,3 +1,12 @@
+SLIDEIQ SCENE REFERENCE FIX
+
+Both SlideIQ scenes now reference SlideIQApp instead of CodeIQApp.
+Close Unity before copying the included Assets, Packages and ProjectSettings
+folders into your SlideIQ project. Replace existing files, including .meta files.
+Open Assets/Scenes/SlideIQMenuScene.unity and press Play.
+Rebuild WebGL with Tools > SlideIQ > Build WebGL and itch ZIP.
+Old compiled WebGL outputs are not included; they must be rebuilt.
+
 SLIDEIQ — FIRST PLAYABLE SOURCE PROJECT
 
 1. Extract this ZIP into a NEW folder to avoid old scenes and build outputs.

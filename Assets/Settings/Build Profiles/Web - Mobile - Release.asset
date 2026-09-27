@@ -66,7 +66,7 @@ MonoBehaviour:
     - line: '|     width: 1'
     - line: '|     height: 1'
     - line: '|   m_SplashScreenLogos:'
-    - line: '|   - logo: {fileID: -4482341694571622497, guid: fbe29321547b6204094511a0dd0447b4,
+    - line: '|   - logo: {fileID: 7284368723259627734, guid: b5d7e8c68d082dd49a611bc86d737b97,
         type: 3}'
     - line: '|     duration: 5'
     - line: '|   m_VirtualRealitySplashScreen: {instanceID: 0}'
@@ -824,10 +824,10 @@ MonoBehaviour:
     - line: '|   activeInputHandler: 1'
     - line: '|   windowsGamepadBackendHint: 0'
     - line: '|   enableDirectStorage: 0'
-    - line: '|   cloudProjectId:'
+    - line: '|   cloudProjectId: '
     - line: '|   framebufferDepthMemorylessMode: 0'
     - line: '|   qualitySettingsNames: []'
-    - line: '|   projectName: My project (1)'
+    - line: '|   projectName: SlideIQ'
     - line: '|   organizationId: ken_buajitti'
     - line: '|   cloudEnabled: 0'
     - line: '|   legacyClampBlendShapeWeights: 0'
