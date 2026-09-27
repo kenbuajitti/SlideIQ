@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "puzzles": [
+    {
+      "id": "classic-beginner-01",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 1,
+      "mines": "000011000010100000000000001000000001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-02",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 32,
+      "mines": "000000000000000011011101000000000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-03",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 27,
+      "mines": "000100000000101010000001000001000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-04",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 17,
+      "mines": "100110001000001000000000000000100000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-05",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 8,
+      "mines": "000000100000000010101000010100000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-06",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 17,
+      "mines": "100000000000000100100000100001000001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-07",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 10,
+      "mines": "000000001000010000100000000000100101",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-08",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 33,
+      "mines": "000000100000000001100110000000000001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-09",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 9,
+      "mines": "010001000001100000000000000010001000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-beginner-10",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 14,
+      "mines": "000000000000000010100000000110001100",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-01",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 36,
+      "mines": "0000001000110001010000010000000010000000001000101000000010000100",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-02",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 62,
+      "mines": "1001001100000000010000010010100000000000000000001001000001010000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-03",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 17,
+      "mines": "0010000000000110000001000000010000100000100000010000100101010000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-04",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 12,
+      "mines": "0000000010100001001000000011001100010001001000000000000000001000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-05",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 38,
+      "mines": "0000010110100000101100000000000010000000001000001001000000000001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-06",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 60,
+      "mines": "0001000100110011001001000101000000000000000100000000000100000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-07",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 53,
+      "mines": "1000100110000000000001101001000001000001000000010010000000000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-08",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 36,
+      "mines": "0001011000010000100100000000000000000001000000010001000001001100",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-09",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 10,
+      "mines": "0000000100000000000000001000001100000110000001010010100010001000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-intermediate-10",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 41,
+      "mines": "0010100000000100000000000101000000000011000000000000110101000010",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-01",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 43,
+      "mines": "1100011011100000001010100000000100000100010000010000000000001000010010000010001001000000000000001001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-02",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 97,
+      "mines": "1001000010101000100000110010011010000000100000000000000000010101110000010010000000000000000001000001",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-03",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 87,
+      "mines": "0000001110100010100000001000001010010011000000000000000100000011000000001011000010110100000000000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-04",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 29,
+      "mines": "1000010000110010000001110000000000000100000000110011000000010110001001000100000000000000010001000100",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-05",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 69,
+      "mines": "0100000111000011000101000000001000001100000000010000000000000010000000010001000000010001010001000111",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-06",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 69,
+      "mines": "0000001000010100010101100000000000010011000000011001000010000010100100000000000010101000000011000000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-07",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 22,
+      "mines": "0000001001100001000000000101101000000000100010000000000000010001010000000010000011011000000011110000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-08",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 51,
+      "mines": "0001000010000000010101010000010001000010000001000000000000000000011100100010000001000001111000110000",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-09",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 16,
+      "mines": "1000000001000110000000000000000001000010010010000000110000010000010001011000000000100001000101110010",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "classic-advanced-10",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 49,
+      "mines": "0110010101000000000100000000010000011000000000000000011000000100010000001001010110010000001100000100",
+      "technique": "Adjacent counts and subset deductions"
+    },
+    {
+      "id": "survey-beginner-01",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 24,
+      "mines": "001010000000100101000000000000000001",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-02",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 25,
+      "mines": "000100001100011001000000000000000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-03",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 4,
+      "mines": "000000000000000010110010100000000100",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-04",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 23,
+      "mines": "000010000100001000000100000100000010",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-05",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 20,
+      "mines": "000100110010000000000000000000011000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-06",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 10,
+      "mines": "001000010000000000010010000001100000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-07",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 16,
+      "mines": "001000010000100000000000010001001000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-08",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 27,
+      "mines": "000001000100000101000000000000010001",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-09",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 11,
+      "mines": "000000010100100100000100000000010000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-beginner-10",
+      "variant": "survey",
+      "difficulty": "Beginner",
+      "size": 6,
+      "start": 33,
+      "mines": "100000011000010010100000000000000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-01",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 51,
+      "mines": "1000011100110000001000000000000000010010110000001000000000000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-02",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 45,
+      "mines": "0001100000000011100000000010100000000000001100000000000001100100",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-03",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 30,
+      "mines": "1000001000001100000000000100000010010000000001000000101000011000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-04",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 32,
+      "mines": "1001000010001000100000010000100000100010001000001000000000000001",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-05",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 35,
+      "mines": "0100110010000000000100000000000100000011000000000000000011110000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-06",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 16,
+      "mines": "0000000000000011000100100001010000100010000100100000000100000010",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-07",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 11,
+      "mines": "1000000000000000010000001101001000000000100000010101000000000011",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-08",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 12,
+      "mines": "0000000000000001001000001101000000100011001001000001000100000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-09",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 41,
+      "mines": "0010000000100001010000101100000000010010000000000000010000000110",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-intermediate-10",
+      "variant": "survey",
+      "difficulty": "Intermediate",
+      "size": 8,
+      "start": 47,
+      "mines": "0000010001000100000000000001110000010000011000000000000011000001",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-01",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 55,
+      "mines": "0001100100000101011100000001000100000100000000001001100000010000000000000101100001010000011000000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-02",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 69,
+      "mines": "0010100011000011000000010100000001000000000000101001010000000100000000011000000001001000010010110000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-03",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 51,
+      "mines": "0001101001010010001010001000000000001100000111101100000000000000000000100100000000000000010000100010",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-04",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 76,
+      "mines": "0100100000000000001000010000010100010100011010000000010000101001000000000010000011000000101100000100",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-05",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 94,
+      "mines": "0000001110000000000010010100000100010000000001001010001000000000001000110011101000100010100000000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-06",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 79,
+      "mines": "1000000000000000010010100001000010000000100010000111000000100011001000000100000000100111000001010000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-07",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 72,
+      "mines": "1100100000110000000000100010001000001000100100010010010001000000001001000000000000000010110000010100",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-08",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 82,
+      "mines": "0000000000000001001110000000001001010001100010011000000011100100100000000000100000001000100000110000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-09",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 12,
+      "mines": "1000000010100000000100000000000111000010000000011000101010001000001100000001010000100100010010000000",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    },
+    {
+      "id": "survey-advanced-10",
+      "variant": "survey",
+      "difficulty": "Advanced",
+      "size": 10,
+      "start": 57,
+      "mines": "0000000000000000010000001110010000001010100010000100100000001000000000100100010000010000001011010011",
+      "technique": "Adjacent counts and subset deductions; row/column totals"
+    }
+  ]
+}

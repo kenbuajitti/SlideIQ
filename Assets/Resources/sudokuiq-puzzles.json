@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "puzzles": [
+    {
+      "id": "starter-beginner-001",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "givens": "500360020002480103139275804206900007097150000010800036000000301750604000920730600",
+      "solution": "548361729672489153139275864286943517397156482415827936864592371753614298921738645",
+      "technique": "Naked singles"
+    },
+    {
+      "id": "starter-beginner-002",
+      "variant": "classic",
+      "difficulty": "Beginner",
+      "givens": "047080309000006705010032004006570030051360208070021450790600003104203060305000890",
+      "solution": "647185329238946715519732684826574931451369278973821456792658143184293567365417892",
+      "technique": "Naked singles"
+    },
+    {
+      "id": "starter-intermediate-001",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "givens": "030010675058000000000047000040601750100000904000000810204036080003000460516002000",
+      "solution": "432819675758263149691547238849621753167358924325794816274936581983175462516482397",
+      "technique": "Hidden singles"
+    },
+    {
+      "id": "starter-intermediate-002",
+      "variant": "classic",
+      "difficulty": "Intermediate",
+      "givens": "100300780070082000090000050017850000306700890900004000000098400050400003000200078",
+      "solution": "124365789573982146698147352217859634346721895985634217732598461851476923469213578",
+      "technique": "Hidden singles"
+    },
+    {
+      "id": "starter-advanced-001",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "givens": "206934700700012060048000000009000430630000080000103009002500000070090300001308070",
+      "solution": "216934758753812964948756213129685437637429185584173629362547891875291346491368572",
+      "technique": "Locked candidates / naked pairs"
+    },
+    {
+      "id": "starter-advanced-002",
+      "variant": "classic",
+      "difficulty": "Advanced",
+      "givens": "000801209890270000000090000007000098486002003001080000705000002010359000000004001",
+      "solution": "653841279894275316172693845527436198486912753931587624745168932218359467369724581",
+      "technique": "Locked candidates / naked pairs"
+    },
+    {
+      "id": "starter-x-beginner-001",
+      "variant": "sudoku-x",
+      "difficulty": "Beginner",
+      "givens": "390740050008020000025010489400650000100090060209030574906084705000900326502163000",
+      "solution": "391748652648529137725316489483657291157492863269831574936284715814975326572163948",
+      "technique": "Naked singles"
+    },
+    {
+      "id": "starter-x-beginner-002",
+      "variant": "sudoku-x",
+      "difficulty": "Beginner",
+      "givens": "804172006205493700170560004010080005780654000000020900020719003540200879000000062",
+      "solution": "894172536265493718173568294312987645789654321456321987628719453541236879937845162",
+      "technique": "Naked singles"
+    },
+    {
+      "id": "starter-x-intermediate-001",
+      "variant": "sudoku-x",
+      "difficulty": "Intermediate",
+      "givens": "940700021002900430010040900000084500000100803893200000007096000006520000029800360",
+      "solution": "945738621672951438318642957761384592254169873893275146137496285486523719529817364",
+      "technique": "Hidden singles"
+    },
+    {
+      "id": "starter-x-intermediate-002",
+      "variant": "sudoku-x",
+      "difficulty": "Intermediate",
+      "givens": "004180050050900400200754001010405000008300000590000600000000760000008003107649028",
+      "solution": "374186259851923476269754381716495832428367195593812647982531764645278913137649528",
+      "technique": "Hidden singles"
+    },
+    {
+      "id": "starter-x-advanced-001",
+      "variant": "sudoku-x",
+      "difficulty": "Advanced",
+      "givens": "000096700031000900000040008009000802000000000058000000200004000000500207105009340",
+      "solution": "584296713631758924927143568369417852712685439458932671296374185843561297175829346",
+      "technique": "Locked candidates / naked pairs"
+    },
+    {
+      "id": "starter-x-advanced-002",
+      "variant": "sudoku-x",
+      "difficulty": "Advanced",
+      "givens": "810005023000007000000081000000214300003050000040000060006500000005000000030009050",
+      "solution": "817495623564327918329681745658214397173956482942873561786542139495138276231769854",
+      "technique": "Locked candidates / naked pairs"
+    }
+  ]
+}

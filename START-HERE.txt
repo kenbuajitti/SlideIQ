@@ -1,0 +1,36 @@
+CODEIQ — PLAY / HOW TO PLAY SCENE FIX
+
+1. Close Unity. Extract this ZIP into a NEW folder and open that project. This avoids retained MineIQ scripts and old browser builds. If copying into your existing CodeIQ project, copy Assets, Packages and ProjectSettings together and replace the included files, including .meta files.
+2. Open the extracted CodeIQ-main folder in Unity 6000.5.7f1 (the version used by your clone).
+3. Select Tools > CodeIQ > Open Menu (or open Assets/Scenes/CodeIQMenuScene.unity), then press Play. PLAY opens the code-breaking board; HOW TO PLAY explains EXACT / OTHER clues.
+4. For the browser release, install Unity's WebGL Build Support module if needed.
+5. Select Tools > CodeIQ > Build WebGL and itch ZIP.
+6. Replace the previous game upload on itch.io with the newly built CodeIQWeb.zip. index.html is at the ZIP root. Refresh the browser after uploading. An existing MineIQ browser build cannot be fixed by copying source files alone.
+
+This download is Unity SOURCE, not an already compiled browser game. Unity was unavailable in the preparation environment. C# compilation, in-Editor gameplay, mobile touch behavior and the final WebGL build still need verification in Unity. The build command runs the included C# rule validation before building.
+
+INCLUDED
+- Code-breaking gameplay: 10 guesses; exact and wrong-position match counts.
+- Beginner: 4 slots, 6 symbols, no repeats.
+- Intermediate: 4 slots, 6 symbols, repeats permitted.
+- Advanced: 5 slots, 8 symbols, repeats permitted.
+- Symbols use letters A-H plus colors, so play does not depend on color recognition.
+- Deterministic numbered challenges 1-999999. Share both difficulty and number.
+- Random challenge, previous/next, reset and reveal.
+- Export/import JSON progress. Export before closing; progress is not automatically saved.
+- Responsive portrait/landscape menu art, white buttons with black text, music toggle and All IQ Games link.
+- Covers folder: landscape, portrait, square and itch.io artwork, with title fully visible.
+- CodeIQResponsive WebGL template: Loading CodeIQ, CodeIQ accessibility label, responsive canvas.
+- Both global project settings and Web build-profile template/name overrides corrected.
+
+CHECKS
+Passed: active scene/controller GUID checks, active CodeIQ branding and template references, WebGL JavaScript loader success/failure tests, browser bridge function exports, ZIP integrity.
+Included for Unity: Tools > CodeIQ > Validate Rules. Checks repeated-symbol feedback, 6000 deterministic challenges, beginner uniqueness, save round trips, win/reveal rules and malformed saves.
+
+The inherited MineIQ compiled builds were removed. A renamed old build would still run MineIQ, so rebuild using the command above.
+
+SCENE FIX
+- CodeIQApp now has its own unique Unity script GUID instead of the inherited MineIQ GUID.
+- CodeIQMenuScene, CodeIQGameScene and inherited TspMenuScene / TspGameScene all reference CodeIQApp.
+- Added Tools > CodeIQ > Open Menu.
+- The build command checks the CodeIQ script and scene bindings before building.
