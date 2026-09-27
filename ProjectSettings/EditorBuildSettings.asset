@@ -6,10 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CodeIQMenuScene.unity
-    guid: 97d16848e34843a4b7b3acef85fb1906
+    path: Assets/Scenes/SlideIQMenuScene.unity
+    guid: 1c6b99bbc1014aef99143831c2d26522
   - enabled: 1
-    path: Assets/Scenes/CodeIQGameScene.unity
-    guid: 847ee0396c814c4d812c40f58c481235
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    path: Assets/Scenes/SlideIQGameScene.unity
+    guid: 48bfd36961e843dfb7c1ebe6138015b5
+  m_configObjects: {}

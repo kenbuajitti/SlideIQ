@@ -4,10 +4,10 @@ using UnityEngine.UI;
 using UnityEngine.InputSystem;
 #endif
 
-// One player survives scene changes; each CodeIQ canvas owns its controls.
+// One player survives scene changes; each SlideIQ canvas owns its controls.
 public sealed class IQMusic : MonoBehaviour
 {
-    const string Preference = "CodeIQ.SoundEnabled";
+    const string Preference = "SlideIQ.SoundEnabled";
     static IQMusic instance;
     AudioSource source;
     bool started;
@@ -16,7 +16,7 @@ public sealed class IQMusic : MonoBehaviour
     public static IQMusic GetPlayer()
     {
         if (instance != null) return instance;
-        var go = new GameObject("CodeIQ Music");
+        var go = new GameObject("SlideIQ Music");
         instance = go.AddComponent<IQMusic>();
         DontDestroyOnLoad(go);
         return instance;
