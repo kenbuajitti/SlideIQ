@@ -180,7 +180,7 @@ public sealed class SlideIQApp : MonoBehaviour
         Button(r,active.moves>0?"RESUME / PLAY":"PLAY",cx,y,360,50,()=>{playing=true;Build();});
         Button(r,"HOW TO PLAY",cx,y+62,360,44,Help);
         Button(r,"IMPORT PROGRESS",cx,y+118,360,42,Import);
-        Button(r,"ALL IQ GAMES  ↗",cx,y+172,360,42,OpenAllGames);
+        Button(r,"OTHER IQ GAMES",cx,y+172,360,42,OpenAllGames);
         Text(r,"Three board sizes. One satisfying challenge.",20,y+238,width-40,32,23);
         Text(r,"Export progress before closing.",20,height-60,width-100,28,18);
         Sound(r,width-76,height-66);
@@ -190,7 +190,7 @@ public sealed class SlideIQApp : MonoBehaviour
 #if UNITY_WEBGL && !UNITY_EDITOR
         SlideOpenGames();
 #else
-        Application.OpenURL("https://playiqgames.itch.io/");
+        Application.OpenURL("https://iqgamesonline.com/?iqreturn=1");
 #endif
     }
     RectTransform Modal(string title,float h=650)

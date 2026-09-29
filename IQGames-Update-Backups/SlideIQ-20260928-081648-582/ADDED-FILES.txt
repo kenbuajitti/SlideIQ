@@ -1,0 +1,7 @@
+Assets\Editor\SlideIQWebBuild.cs
+Assets\Editor\SlideIQWebBuild.cs.meta
+Assets\Plugins\WebGL\IQAudio.jslib
+Assets\Plugins\WebGL\IQAudio.jslib.meta
+Assets\WebGLTemplates\IQGamesResponsive\index.html
+Assets\WebGLTemplates\IQGamesResponsive\index.html.meta
+BUILD-SLIDEIQ.txt

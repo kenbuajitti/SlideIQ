@@ -33,6 +33,18 @@ public static class SlideIQBuild
     {
         ValidateSceneBindings();
         SlideIQValidation.Validate();
-        SlideIQWebBuild.Build();
+        PlayerSettings.productName="SlideIQ";
+        PlayerSettings.WebGL.template="PROJECT:SlideIQResponsive";
+        PlayerSettings.WebGL.compressionFormat=WebGLCompressionFormat.Gzip;
+        PlayerSettings.WebGL.decompressionFallback=true;
+        var root=Path.GetDirectoryName(Application.dataPath);
+        string output=Path.Combine(root,"SlideIQWeb"),zip=Path.Combine(root,"SlideIQWeb.zip");
+        var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
+            scenes=new[]{"Assets/Scenes/SlideIQMenuScene.unity","Assets/Scenes/SlideIQGameScene.unity"},
+            locationPathName=output,target=BuildTarget.WebGL,options=BuildOptions.None});
+        if(report.summary.result!=BuildResult.Succeeded)throw new Exception("SlideIQ build failed: "+report.summary.result);
+        if(File.Exists(zip))File.Delete(zip);
+        ZipFile.CreateFromDirectory(output,zip,System.IO.Compression.CompressionLevel.Optimal,false);
+        Debug.Log("Upload "+zip+" to itch.io as an HTML game.");EditorUtility.RevealInFinder(zip);
     }
 }

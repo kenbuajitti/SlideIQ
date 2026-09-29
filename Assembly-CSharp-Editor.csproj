@@ -61,6 +61,7 @@
     <Compile Include="Assets\Editor\SlideIQBuild.cs" />
     <Compile Include="Assets\Editor\CodeIQBuild.cs" />
     <Compile Include="Assets\Editor\WordIQMenuButtonRepair.cs" />
+    <Compile Include="Assets\Editor\SlideIQWebBuild.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

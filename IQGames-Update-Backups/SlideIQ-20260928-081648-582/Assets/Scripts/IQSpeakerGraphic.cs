@@ -6,19 +6,6 @@ using UnityEngine.UI;
 public sealed class IQSpeakerGraphic : MaskableGraphic
 {
     public bool IsOn;
-    Button soundButton;
-    void LateUpdate()
-    {
-        bool audible = IQMusic.GetPlayer().IsAudible;
-        if (IsOn != audible) { IsOn = audible; SetVerticesDirty(); }
-        if (soundButton == null) soundButton = GetComponentInParent<Button>();
-        if (soundButton != null)
-        {
-            soundButton.transition = Selectable.Transition.None;
-            var fill = soundButton.targetGraphic as Image;
-            if (fill != null) fill.color = Color.clear;
-        }
-    }
     protected override void OnPopulateMesh(VertexHelper vh)
     {
         vh.Clear();
